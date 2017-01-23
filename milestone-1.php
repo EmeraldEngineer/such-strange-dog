@@ -1,6 +1,6 @@
-/**
+<!--
  Taylor McCarthy PWP - Such Strange Dog Training
- **/
+ -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
