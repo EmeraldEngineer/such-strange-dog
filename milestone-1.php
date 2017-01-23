@@ -25,7 +25,7 @@
 		<ul>
 			<li>Name: Jerry Nobork</li>
 			<li>Age: 50</li>
-			<li>Technology: Macbook Pro running OS X El Capitan. iPhone 5 running latest version of iOS.</li>
+			<li>Technology: Macbook Pro running OS X El Capitan. iPhone 5 running latest version of iOS. Comfortable with technology, but not a power user.</li>
 			<li>Goals
 				<ul>
 					<li>Improve the behavior of their dog.</li>
@@ -41,7 +41,7 @@
 		</ul>
 		<br>
 		<h1>Use Case</h1>
-		<p>Jerry Nobork is a busy accountant who has recently obtain a new puppy. His puppy has been eliminating in the house and displaying destructive behavior. Jerry needs a dog trainer who will travel to his home outside of the city to help him learn good training habits he can apply in his home. He wants to be able to compare pricing and other info online so he can fit this research inbetween calls to and from his clients.
+		<p>Jerry Nobork is a busy accountant who has recently obtained a new puppy. His puppy has been eliminating in the house and displaying destructive behavior. Jerry needs a dog trainer who will travel to his home outside of the city to help him learn good training habits he can apply in his home. He wants to be able to compare pricing and other info online so he can fit this research inbetween calls to and from his clients.
 		</p>
 	</body>
 </html>
