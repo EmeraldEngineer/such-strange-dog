@@ -1,4 +1,3 @@
-<?php
 /**
  Taylor McCarthy PWP - Such Strange Dog Training
  **/
