@@ -13,7 +13,7 @@
 		</header>
 		<br>
 		<h1>Purpose</h1>
-		<p>Design a professional, elegant looking website for The Such Strange Dog Training company. This website will both be used to attract clients for Such Strange Dog Training.</h2>
+		<p>Design a professional, elegant looking website for The Such Strange Dog Training company. This website will both be used to attract clients for Such Strange Dog Training.</p>
 		<br>
 		<h1>Audience</h1>
 		<p>Potential and existing clients of Such Strange Dog Training.</p>
@@ -26,10 +26,10 @@
 			<li>Name: Jerry Nobork</li>
 			<li>Age: 50</li>
 			<li>Technology: Macbook Pro running OS X El Capitan. iPhone 5 running latest version of iOS.</li>
-			<li>Goals<
+			<li>Goals
 				<ul>
 					<li>Improve the behavior of their dog.</li>
-					<li>Obtain contact information for Such Strange Dog Training</i>
+					<li>Obtain contact information for Such Strange Dog Training</li>
 					<li>Obtain information about pricing and scheduling availability.</li>
 				</ul>
 			</li>
