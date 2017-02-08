@@ -25,7 +25,7 @@
 			</ul>
 		<br>
 		<br>
-		<img src="/documentation/images/wireframe.png"/>
+		<a href="/">Wireframe<img src="https://bootcamp-coders.cnm.edu/~tmccarthy4/such-strange-dog/public_html/documentation/images/wireframe.png"></a>
 
 	</body>
 </html>
