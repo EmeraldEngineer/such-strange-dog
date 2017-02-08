@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- I think there is a problem with my directory structure on the server, looks like I accidentally created two documentation folders. Is it safe to execute a move command through terminal? Or is there another preferred way to move the directory?
+		-->
 <html>
 	<head>
 		<title>Such Strange Dog Training Milestone 2</title>
@@ -27,11 +29,6 @@
 			</ul>
 		<br>
 		<br>
-		<!-- I think there is a problem with my directory structure on the server, looks like I accidentally created two documentation folders. Is it safe to execute a move command through terminal? Or is there another preferred way to move the directory?
-		-->
-		<!--
-		<img src="https://bootcamp-coders.cnm.edu/~tmccarthy4/such-strange-dog/public_html/documentation/images/wireframe.png"/>
-		-->
 		<img src="../images/wireframe.png"/>
 	</body>
 </html>
