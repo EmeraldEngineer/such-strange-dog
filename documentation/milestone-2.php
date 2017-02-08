@@ -25,7 +25,7 @@
 			</ul>
 		<br>
 		<br>
-		<img src=./img/wireframe.png/>
+		<img src=/img/wireframe.png/>
 
 	</body>
 </html>
