@@ -8,7 +8,7 @@
 			Content Strategy
 		</p>
 			<ul>
-			<li>Overall help new and existing clients find info about pricing, contact info, and other recommended resources.
+			<li>Overall: help new and existing clients find info about pricing, contact info, and other recommended resources.
 				<ul>
 
 					<li>About: Contains basic info about the business history and trainer experience.
