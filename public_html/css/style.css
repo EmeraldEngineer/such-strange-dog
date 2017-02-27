@@ -1,3 +1,37 @@
 #backgroundBox {
 	background-color: dimgray;
 }
+
+#backgroundBoxBorder {
+	background-color: dimgray;
+	border: 1px solid white;
+	border-radius: 10px 40px;
+}
+
+body {
+	color: white;
+}
+
+
+/**Sticky footer
+http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+**/
+
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: dimgray;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
