@@ -16,6 +16,10 @@
 
 }
 
+.contentImage {
+	padding: 2px;
+}
+
 .contentText {
 	padding: 5px;
 	color: white;
