@@ -3,11 +3,18 @@
 }
 
 #backgroundBoxBorder {
-	background-color: dimgray;
+	background-color: gray;
 	border: 1px solid white;
 	border-radius: 10px 40px;
 }
 
+.contentTitle {
+	font-weight: bold;
+	font-size: 32px;
+	color: white;
+	padding: 5px;
+
+}
 
 .contentText {
 	padding: 5px;
