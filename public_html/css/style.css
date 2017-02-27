@@ -8,10 +8,11 @@
 	border-radius: 10px 40px;
 }
 
-body {
+
+.contentText {
+	padding: 5px;
 	color: white;
 }
-
 
 /**Sticky footer
 http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
