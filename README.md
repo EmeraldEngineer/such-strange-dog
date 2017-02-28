@@ -25,3 +25,6 @@ I think this is going to be a beautiful layout, and I'm looking forward to seein
 - I have to totally give you crap for neglecting to include the `alt` attribute on your image.
 - `<meta charset="utf-8">` tag is missing
 - Watch your indentation
+
+## Milestone 2&beta; Feedback
+Good work so far - stay focused and you should be finished in a handful of focused work hours. Detailed meeting feedback sent via Slack. Your Milestone passes at Tier III.
