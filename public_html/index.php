@@ -24,6 +24,8 @@
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
 		<title>Such Strange Dog Training</title>
 	</head>
 	<body class="sfooter">
@@ -35,6 +37,14 @@
 					</div>
 					<div class="col-md-6">
 						<!-- 1x2 content -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<!-- 2x1 content -->
+					</div>
+					<div class="col-md-6">
+						<!-- 2x2 content -->
 					</div>
 				</div>
 			</div>
