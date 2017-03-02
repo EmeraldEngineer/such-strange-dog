@@ -1,59 +1,12 @@
-.image {
-	position: relative;
-	margin-bottom: 20px;
-	width: 100%;
-}
+/*
+	Global Styles
+ */
 
-h2 {
-	color: white;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-}
-
-
-
-
-#backgroundBox {
-	background-color: dimgray;
-}
-
-#backgroundBoxBorder {
-	background-color: gray;
-	border: 1px solid white;
-	border-radius: 10px 40px;
-}
-
-.contentTitle {
-	font-weight: bold;
-	font-size: 32px;
-	color: white;
-	padding: 5px;
-
-}
-
-.contentImage {
-	padding: 2px;
-}
-
-.contentText {
-	padding: 5px;
-	color: white;
-}
+/* add sticky footer globally */
 
 /**Sticky footer
 http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 **/
-
-html {
-	display: flex;
-}
-
-body {
-	width: 100%;
-}
-
 .sfooter {
 	display: flex;
 	flex-direction: column;
@@ -63,4 +16,64 @@ body {
 
 .sfooter-content {
 	flex: 1 0 auto;
+}
+
+html {
+	display: flex;
+}
+
+body {
+	width: 100%;
+}
+
+
+/****************************************/
+
+
+/*
+	Index Page Styles
+ */
+.image {
+	position: relative;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#backgroundBox {
+	background-color: dimgray;
+}
+
+.background-image {
+	background-image: url("http://fillmurray.com/g/760/300");
+}
+
+/*
+	Content Pages Styles
+ */
+
+/* colors main text on pages */
+.contentText {
+	padding: 5px;
+	color: white;
+}
+
+.contentImage {
+	padding: 2px;
+}
+
+#backgroundBoxBorder {
+	background-color: gray;
+	border: 1px solid white;
+	border-radius: 10px 40px;
+}
+
+
+
+/* possibly unneeded */
+h2 {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
 }

@@ -28,52 +28,19 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#">About</a>
-						</li>
-						<li>
-							<a href="#">Pricing</a>
-						</li>
-						<li>
-							<a href="#">Resources</a>
-						</li>
-						<li>
-							<a href="#">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		<!-- this creates the 4 main images for layout/nav-->
 			<div id="backgroundBox" class="container-fluid">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="image">
-							<img src="http://fillmurray.com/g/760/300" alt=""/>
-							<h2>
-								<span>
-									<About></About>
-								</span>
-							</h2>
-						</div>
+						<!-- 1x1 content -->
 					</div>
 					<div class="col-md-6">
-					<img src="http://fillmurray.com/g/760/300"/>
+						<!-- 1x2 content -->
+					</div>
 				</div>
-				</div>
-				<div class="row">
-				<div class="col-md-6">
-					<img src="http://fillmurray.com/760/300"/>
-				</div>
-				<div class="col-md-6">
-					<img src="http://fillmurray.com/760/300"/>
-				</div>
-			</div>
 			</div>
 		</div>
 		<footer>
+			<!-- footer here-->
 		</footer>
 	</body>
 </html>
