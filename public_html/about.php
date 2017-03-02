@@ -18,28 +18,6 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-4 col-md-offset-4">
-						<nav class="navbar navbar-default">
-							<ul class="nav navbar-nav">
-								<li>
-									<a href="#">About</a>
-									</li>
-								<li>
-									<a href="#">Pricing</a>
-								</li>
-								<li>
-									<a href="#">Resources</a>
-								</li>
-								<li>
-									<a href="#">Contact</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
 			<div id="backgroundBoxBorder" class="container-fluid">
 				<div class="row">
 					<div class="col-md-6">

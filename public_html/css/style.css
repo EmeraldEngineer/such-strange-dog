@@ -1,3 +1,20 @@
+.image {
+	position: relative;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+h2 {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+}
+
+
+
+
 #backgroundBox {
 	background-color: dimgray;
 }

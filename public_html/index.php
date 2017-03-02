@@ -39,7 +39,14 @@
 			<div id="backgroundBox" class="container-fluid">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="http://fillmurray.com/g/760/300"/>
+						<div class="image">
+							<img src="http://fillmurray.com/g/760/300" alt=""/>
+							<h2>
+								<span>
+									<About></About>
+								</span>
+							</h2>
+						</div>
 					</div>
 					<div class="col-md-6">
 					<img src="http://fillmurray.com/g/760/300"/>
