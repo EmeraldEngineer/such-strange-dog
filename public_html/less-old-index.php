@@ -31,24 +31,28 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<div id="backgroundBox" class="container-fluid">
-				<div class="img-box bg-image">
-					<div class="nav-text">
-						<div class="table">
-							<div class="table-cell">
-						<!-- content goes here-->
-						About
-							</div>
+				<div class="row">
+					<div class="col-md-6">
+						<!-- 1x1 content -->
+						<div class="background-image">
+							<h1>About</h1>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<!-- 1x2 content -->
+						<div class="background-image">
+							<h1>Pricing</h1>
 						</div>
 					</div>
 				</div>
-				<div class="img-box bg-image">
-					<div class="nav-text">
-						<div class="table">
-							<div class="table-cell">
-						<!-- content goes here-->
-						Pricing
-							</div>
-						</div>
+				<div class="row">
+					<div class="col-md-6">
+						<!-- 2x1 content -->
+						<h1>Resources</h1>
+					</div>
+					<div class="col-md-6">
+						<!-- 2x2 content -->
+						<h1>Contact</h1>
 					</div>
 				</div>
 			</div>

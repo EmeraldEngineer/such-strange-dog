@@ -1,3 +1,58 @@
+/*flexbox thingy*
+@import "compass/css3";
+
+.container {
+	max-width: 1280px;
+	min-width: 640px;
+	margin: 0 auto;
+}
+
+.img-row {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+*/
+
+/***************************/
+
+.img-box {
+	float:left;
+	position: relative;
+	width: 30%;
+	padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+	margin:1.66%;
+	background-color:#1E1E1E;
+	overflow:hidden;
+}
+
+.bg-image {
+	background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+}
+
+.nav-text {
+	position:absolute;
+	height:100%; /* = 100% - 2*10% padding */
+	width:100%; /* = 100% - 2*5% padding */
+	/*padding: 5%;*/
+	text-align:center;
+	color: white;
+	transform-style: preserve-3d; /* apparently prevents half-pixel fuckery */
+}
+
+.table{
+	display:table;
+	height:100%;
+	width:100%;
+}
+
+.table-cell{
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+	width:100%;
+}
 
 
 /****************************************/
@@ -15,10 +70,16 @@
 #backgroundBox {
 	/*background-color: dimgray;*/
 	background-color: deeppink;
+	margin-bottom: 5rem;
+	margin-right: 5rem;
+	margin-left: 5rem;
 }
 
 .background-image {
 	background-image: url("http://fillmurray.com/g/760/300");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
 }
 
 /*
@@ -41,7 +102,14 @@
 	border-radius: 10px 40px;
 }
 
+.background-image {
+	width: 25%;
+	height: 25vw;
+	flex: 1 0 260px;
 
+	position: relative;
+	overflow: hidden;
+}
 
 /* possibly unneeded */
 h2 {
