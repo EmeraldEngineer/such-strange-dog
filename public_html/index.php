@@ -32,15 +32,14 @@
 		<div class="sfooter-content">
 			<div id="backgroundBox" class="container-fluid">
 				<div class="img-box-l bg-image">
-					<!--<div class="nav-text">
+					<<div class="nav-text">
 						<div class="table">
 							<div class="table-cell">
-								<!-- content goes here-- >
+								<!-- content goes here-->
 								About
 							</div>
 						</div>
 					</div>
-					-->
 				</div>
 				<div class="img-box-r bg-image">
 					<div class="nav-text">
