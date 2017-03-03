@@ -21,8 +21,10 @@
 	float:left;
 	position: relative;
 	width: 46%;
-	padding-bottom : 34.5%; /* = width for a 1:1 aspect ratio */
+	padding-bottom : 34.5%;
 	margin-bottom:1.66%;
+	margin-right:0;
+	margin-left:4%;
 	background-color:#1E1E1E;
 	overflow:hidden;
 }
@@ -31,8 +33,10 @@
 	float:right;
 	position: relative;
 	width: 46%;
-	padding-bottom : 34.5%; /* = width for a 1:1 aspect ratio */
+	padding-bottom : 34.5%;
 	margin-bottom:1.66%;
+	margin-left:0;
+	margin-right:4%;
 	background-color:#1E1E1E;
 	overflow:hidden;
 }
@@ -40,6 +44,7 @@
 .bg-image {
 	background-image: url("http://fillmurray.com/g/1280/960");
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .nav-text {
@@ -71,11 +76,6 @@
 /*
 	Index Page Styles
  */
-.image {
-	position: relative;
-	margin-bottom: 20px;
-	width: 100%;
-}
 
 #backgroundBox {
 	/*background-color: dimgray;*/
@@ -83,13 +83,6 @@
 	margin-bottom: 5rem;
 	margin-right: 5rem;
 	margin-left: 5rem;
-}
-
-.background-image {
-	background-image: url("http://fillmurray.com/g/760/300");
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center;
 }
 
 /*
@@ -112,14 +105,7 @@
 	border-radius: 10px 40px;
 }
 
-.background-image {
-	width: 25%;
-	height: 25vw;
-	flex: 1 0 260px;
 
-	position: relative;
-	overflow: hidden;
-}
 
 /* possibly unneeded */
 h2 {
@@ -130,6 +116,14 @@ h2 {
 	width: 100%;
 }
 
+.background-image {
+	width: 25%;
+	height: 25vw;
+	flex: 1 0 260px;
+
+	position: relative;
+	overflow: hidden;
+}
 
 /*
 	Global Styles
