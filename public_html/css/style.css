@@ -17,25 +17,35 @@
 
 /***************************/
 
-.img-box {
+.img-box-l {
 	float:left;
 	position: relative;
-	width: 30%;
-	padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-	margin:1.66%;
+	width: 46%;
+	padding-bottom : 34.5%; /* = width for a 1:1 aspect ratio */
+	margin-bottom:1.66%;
+	background-color:#1E1E1E;
+	overflow:hidden;
+}
+
+.img-box-r {
+	float:right;
+	position: relative;
+	width: 46%;
+	padding-bottom : 34.5%; /* = width for a 1:1 aspect ratio */
+	margin-bottom:1.66%;
 	background-color:#1E1E1E;
 	overflow:hidden;
 }
 
 .bg-image {
-	background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+	background-image: url("http://fillmurray.com/g/1280/960");
+	background-repeat: no-repeat;
 }
 
 .nav-text {
 	position:absolute;
-	height:100%; /* = 100% - 2*10% padding */
-	width:100%; /* = 100% - 2*5% padding */
-	/*padding: 5%;*/
+	height:100%;
+	width:100%;
 	text-align:center;
 	color: white;
 	transform-style: preserve-3d; /* apparently prevents half-pixel fuckery */
