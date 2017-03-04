@@ -24,43 +24,57 @@
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-		<!-- v Adds timestamp to css link in order to prevent caching, remove from production v -->
-		<link rel="stylesheet" type="text/css" href="css/style.css"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
-		<!-- ^ Adds timestamp to css link in order to prevent caching, remove from production ^ -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<title>Such Strange Dog Training</title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<div id="backgroundBox" class="container-fluid">
-				<div class="img-flex">
-					<!--About-->
-					<div class="bg-image">
-						<h1>
-							<!--Text goes here-->
-						</h1>
-					</div>
-					<!--Pricing-->
-					<div class="bg-image">
-						<h1>
-							<!--Text goes here-->
-						</h1>
+				<div class="img-box-l bg-image">
+					<div class="nav-text">
+						<div class="table">
+							<div class="table-cell">
+								<!-- content goes here-->
+								About
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="img-flex">
-					<!--About-->
-					<div class="bg-image">
-						<h1>
-							<!--Text goes here-->
-						</h1>
+				<div class="img-box-r bg-image">
+					<div class="nav-text">
+						<div class="table">
+							<div class="table-cell">
+								<!-- content goes here-->
+								Pricing
+							</div>
+						</div>
 					</div>
-					<!--Pricing-->
-					<div class="bg-image">
-						<h1>
-							<!--Text goes here-->
-						</h1>
-					</div>
+					<!-->
 				</div>
+				<div class="img-box-l bg-image">
+					<div class="nav-text">
+						<div class="table">
+							<div class="table-cell">
+								<!-- content goes here-->
+								Resources
+							</div>
+						</div>
+					</div>
+					<!-->
+				</div>
+				<div class="img-box-r bg-image">
+					<div class="nav-text">
+						<div class="table">
+							<div class="table-cell">
+								<!-- content goes here-->
+								Contact
+							</div>
+						</div>
+					</div>
+					<!-->
+				</div>
+
 			</div>
 		</div>
 		<footer>

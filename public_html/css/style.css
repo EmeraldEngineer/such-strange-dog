@@ -1,22 +1,20 @@
-/*flexbox thingy*
+/*flexbox thingy*/
 @import "compass/css3";
 
-.container {
-	max-width: 1280px;
-	min-width: 640px;
-	margin: 0 auto;
-}
-
-.img-row {
+.img-flex {
 	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
+	-webkit-flex-direction: row; /* Safari */
+	flex-direction:         row;
+
+	-webkit-justify-content: center; /* Safari */
+	justify-content:         center;
 }
-*/
+
 
 /***************************/
 
+/* - table-index css - Talcotted
 .img-box-l {
 	float:left;
 	position: relative;
@@ -47,13 +45,14 @@
 	background-size: contain;
 }
 
+
 .nav-text {
 	position:absolute;
 	height:100%;
 	width:100%;
 	text-align:center;
 	color: white;
-	transform-style: preserve-3d; /* apparently prevents half-pixel fuckery */
+	transform-style: preserve-3d;  *apparently prevents half-pixel fuckery*
 }
 
 .table{
@@ -69,6 +68,7 @@
 	width:100%;
 }
 
+*/
 
 /****************************************/
 
@@ -77,13 +77,29 @@
 	Index Page Styles
  */
 
+
+
 #backgroundBox {
 	/*background-color: dimgray;*/
 	background-color: deeppink;
-	/*margin-bottom: 5rem;
+	margin-bottom: 5rem;
+	margin-left: 5rem;
 	margin-right: 5rem;
-	margin-left: 5rem;*/
+
+
 }
+
+.bg-image {
+	background-image: url("http://fillmurray.com/g/800/600");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 46%;
+	padding-bottom : 34.5%;
+
+
+}
+
+
 
 /*
 	Content Pages Styles
