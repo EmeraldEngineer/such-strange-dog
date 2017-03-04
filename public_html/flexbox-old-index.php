@@ -32,41 +32,45 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<div class="main-container container-fixed">
-				<div class="container">
-					<div class="img-row">
-						<div class="img-container">
-							<img src="http://fillmurray.com/g/1280/960"/>
-							<div class="text_over_image">
-								ABOUT
-							</div>
+			<div id="backgroundBox" class="container-fluid">
+				<div class="main-container">
+					<div class="img-flex">
+						<!--About-->
+						<div class="bg-image">
+
+							<h1>
+								<!--Text goes here-->
+							</h1>
 						</div>
-						<div class="img-container">
-							<img src="http://fillmurray.com/g/1280/960"/>
-							<div class="text_over_image">
-								ABOUT
-							</div>
+						<!--Pricing-->
+						<div class="bg-image">
+
+							<h1>
+								<!--Text goes here-->
+							</h1>
 						</div>
 					</div>
-					<div class="img-row">
-						<div class="img-container">
-							<img src="http://fillmurray.com/g/1280/960"/>
-							<div class="text_over_image">
-								ABOUT
-							</div>
+					<div class="img-flex">
+						<!--About-->
+						<div class="bg-image">
+
+							<h1>
+								<!--Text goes here-->
+							</h1>
 						</div>
-						<div class="img-container">
-							<img src="http://fillmurray.com/g/1280/960"/>
-							<div class="text_over_image">
-								ABOUT
-							</div>
+						<!--Pricing-->
+						<div class="bg-image">
+
+							<h1>
+								<!--Text goes here-->
+							</h1>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<footer>
-			<!-- footer goes here -->
+			<!-- footer here-->
 		</footer>
 	</body>
 </html>
