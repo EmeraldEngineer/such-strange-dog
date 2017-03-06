@@ -32,30 +32,34 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<div class="under-box">
-				<div class="outer-box">
-					<div class="img-box-1">
-						<div class="text_over_image">
-							About
-							<div class="reading-box"></div>
+			<div class="main-container container-fixed">
+				<div class="container">
+					<div class="img-row">
+						<div class="img-container">
+							<img src="http://fillmurray.com/g/1280/960" class="nav-image"/>
+							<div class="text_over_image">
+								About
+							</div>
+						</div>
+						<div class="img-container">
+							<img src="http://fillmurray.com/g/1280/960" class="nav-image"/>
+							<div class="text_over_image">
+								Pricing
+							</div>
 						</div>
 					</div>
-					<div class="img-box-2">
-						<div class="text_over_image">
-							Pricing
-							<div class="reading-box"></div>
+					<div class="img-row">
+						<div class="img-container">
+							<img src="http://fillmurray.com/g/1280/960" class="nav-image"/>
+							<div class="text_over_image">
+								Resources
+							</div>
 						</div>
-					</div>
-					<div class="img-box-3">
-						<div class="text_over_image">
-							Resources
-							<div class="reading-box"></div>
-						</div>
-					</div>
-					<div class="img-box-4">
-						<div class="text_over_image">
-							Contact
-							<div class="reading-box"></div>
+						<div class="img-container">
+							<img src="http://fillmurray.com/g/1280/960" class="nav-image"/>
+							<div class="text_over_image">
+								Contact
+							</div>
 						</div>
 					</div>
 				</div>
