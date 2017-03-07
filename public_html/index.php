@@ -40,25 +40,25 @@
 					<div class="img-box-1 navImg">
 						<div class="text_over_image" onclick="showAbout()">
 							About
-							<div class="reading-box"></div>
+
 						</div>
 					</div>
 					<div class="img-box-2 navImg">
 						<div class="text_over_image">
 							Pricing
-							<div class="reading-box"></div>
+
 						</div>
 					</div>
 					<div class="img-box-3 navImg">
 						<div class="text_over_image">
 							Resources
-							<div class="reading-box"></div>
+
 						</div>
 					</div>
 					<div class="img-box-4 navImg">
 						<div class="text_over_image">
 							Contact
-							<div class="reading-box"></div>
+
 						</div>
 					</div>
 					<!-- end nav images -->
@@ -77,36 +77,35 @@
 				<div class="m-outer-box">
 					<!-- nav images -->
 					<div class="m-img-box-1 navImg">
-						<!--
+
 						<div class="text_over_image" onclick="showAbout()">
 							About
-							<div class="reading-box"></div>
 						</div>
-						-->
+
 					</div>
 					<div class="m-img-box-2 navImg">
-						<!--
+
 						<div class="text_over_image">
 							Pricing
-							<div class="reading-box"></div>
+
 						</div>
-						-->
+
 					</div>
 					<div class="m-img-box-3 navImg">
-						<!--
+
 						<div class="text_over_image">
 							Resources
-							<div class="reading-box"></div>
+
 						</div>
-						-->
+
 					</div>
 					<div class="m-img-box-4 navImg">
-						<!--
+
 						<div class="text_over_image">
-							!Contact!
-							<div class="reading-box"></div>
+							Contact
+
 						</div>
-						-->
+
 					</div>
 					<!-- end nav images -->
 					<div id="aboutContent">
@@ -123,6 +122,7 @@
 		</div>
 		<footer>
 			<!-- footer goes here -->
+
 		</footer>
 	</body>
 </html>
