@@ -34,7 +34,7 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<div class="under-box">
+			<div class="under-box hidden-xs">
 				<div class="outer-box">
 					<!-- nav images -->
 					<div class="img-box-1 navImg">
@@ -63,20 +63,63 @@
 					</div>
 					<!-- end nav images -->
 					<div id="aboutContent">
-
-
 					</div>
 					<div id="pricingContent">
-
 					</div>
 					<div id="resourcesContent">
-
 					</div>
 					<div id="contactContent">
-
 					</div>
 				</div>
 			</div>
+
+			<div class="m-under-box visible-xs">
+				<div class="m-outer-box">
+					<!-- nav images -->
+					<div class="m-img-box-1 navImg">
+						<!--
+						<div class="text_over_image" onclick="showAbout()">
+							About
+							<div class="reading-box"></div>
+						</div>
+						-->
+					</div>
+					<div class="m-img-box-2 navImg">
+						<!--
+						<div class="text_over_image">
+							Pricing
+							<div class="reading-box"></div>
+						</div>
+						-->
+					</div>
+					<div class="m-img-box-3 navImg">
+						<!--
+						<div class="text_over_image">
+							Resources
+							<div class="reading-box"></div>
+						</div>
+						-->
+					</div>
+					<div class="m-img-box-4 navImg">
+						<!--
+						<div class="text_over_image">
+							!Contact!
+							<div class="reading-box"></div>
+						</div>
+						-->
+					</div>
+					<!-- end nav images -->
+					<div id="aboutContent">
+					</div>
+					<div id="pricingContent">
+					</div>
+					<div id="resourcesContent">
+					</div>
+					<div id="contactContent">
+					</div>
+				</div>
+			</div>
+
 		</div>
 		<footer>
 			<!-- footer goes here -->
