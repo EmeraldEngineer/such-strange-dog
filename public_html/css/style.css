@@ -1,3 +1,5 @@
+/* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/)*/
+
 /*********************
 boxtest
  ********************/
@@ -10,28 +12,28 @@ boxtest
 	max-height: 1440px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(100,20,20,1);
+	background-image: url("../images/stucco-red.png");
 	position: relative;
 	border-bottom-left-radius: 1%;
 	border-bottom-right-radius: 1%;
+	box-shadow: 0 0 50px 3px ;
 }
 
 .outer-box {
 	width: 95%;
-	height: 53%;
+	height: 50%;
 	padding-bottom: 53%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: indigo;
 	position: relative;
-
+	box-shadow: 0 0 50px 3px ;
 
 }
 
 .img-box-1 {
 	display: inline-block;
 	width: 50%;
-	height: 50%;
+	height: 51%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url("../images/about-img.jpg");
@@ -45,7 +47,7 @@ boxtest
 .img-box-2 {
 	display: inline-block;
 	width: 50%;
-	height: 50%;
+	height: 51%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url("../images/pricing-img.jpg");
@@ -59,27 +61,27 @@ boxtest
 .img-box-3 {
 	display: inline-block;
 	width: 50%;
-	height: 50%;
+	height: 51.5%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url("../images/resources-img.jpg");
 	margin: 0;
 	position: absolute;
 	left: 0%;
-	top: 50%;
+	top: 49.5%;
 
 }
 .img-box-4 {
 	display: inline-block;
 	width: 50%;
-	height: 50%;
+	height: 51.5%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url("../images/contact-img.jpg");
 	margin: 0;
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 49.5%;
 
 }
 
@@ -97,9 +99,19 @@ boxtest
 	height: 200px;
 	vertical-align:middle;
 	line-height:200px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 90%;
+
 }
 
+#aboutContent {
+	visibility: hidden;
+	color: black;
+}
 
+.hidden {
+	display: none;
+}
 
 
 /************************?
@@ -336,7 +348,8 @@ http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	background-color: rgba(50,50,50,1);
+	background-image: url("../images/stucco-dark.png");
+	/*background-color: rgba(50,50,50,1);*/
 }
 
 .sfooter-content {

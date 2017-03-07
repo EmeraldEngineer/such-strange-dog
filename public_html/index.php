@@ -28,35 +28,52 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
 		<!-- ^ Adds timestamp to css link in order to prevent caching, remove from production ^ -->
 
+		<link rel="script" type="text/javascript" href="js/script.js"/>
+
 		<title>Such Strange Dog Training</title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<div class="under-box">
 				<div class="outer-box">
-					<div class="img-box-1">
-						<div class="text_over_image">
+					<!-- nav images -->
+					<div class="img-box-1 navImg">
+						<div class="text_over_image" onclick="showAbout()">
 							About
 							<div class="reading-box"></div>
 						</div>
 					</div>
-					<div class="img-box-2">
+					<div class="img-box-2 navImg">
 						<div class="text_over_image">
 							Pricing
 							<div class="reading-box"></div>
 						</div>
 					</div>
-					<div class="img-box-3">
+					<div class="img-box-3 navImg">
 						<div class="text_over_image">
 							Resources
 							<div class="reading-box"></div>
 						</div>
 					</div>
-					<div class="img-box-4">
+					<div class="img-box-4 navImg">
 						<div class="text_over_image">
 							Contact
 							<div class="reading-box"></div>
 						</div>
+					</div>
+					<!-- end nav images -->
+					<div id="aboutContent">
+
+
+					</div>
+					<div id="pricingContent">
+
+					</div>
+					<div id="resourcesContent">
+
+					</div>
+					<div id="contactContent">
+
 					</div>
 				</div>
 			</div>
