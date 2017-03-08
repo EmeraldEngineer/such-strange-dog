@@ -245,7 +245,7 @@ boxtest
 	height: 39%;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("../images/pink-puppy.jpg");
+	background-image: url("../images/play-puppies.jpg");
 	margin: 0;
 	padding: 0;
 	position: absolute;
@@ -260,7 +260,36 @@ boxtest
 	height: 39%;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-image: url("../images/play-puppies.jpg");
+	background-image: url("../images/pink-puppy.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+	top: 22%;
+}
+
+.img-content-resources-1 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/slushycrop.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+
+	top: 59%;
+}
+
+.img-content-resources-2 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/truck-puppy.jpg");
 	margin: 0;
 	padding: 0;
 	position: absolute;

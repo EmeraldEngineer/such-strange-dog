@@ -33,6 +33,15 @@ function showPricing() {
 	$("#pricingImages").show();
 }
 
+function showResources() {
+	$(".outer-box").hide();
+	$(".m-outer-box").hide();
+	$(".text-box").show();
+	$("#resourcesContent").show();
+	$(".content-img-box").show();
+	$("#resourcesImages").show();
+}
+
 
 
 function clicktest() {

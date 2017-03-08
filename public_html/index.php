@@ -24,6 +24,20 @@
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<!-- v Adds timestamp to css link in order to prevent caching, remove from production v -->
 		<link rel="stylesheet" type="text/css" href="css/style.css"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
 		<!-- ^ Adds timestamp to css link in order to prevent caching, remove from production ^ -->
@@ -52,8 +66,8 @@
 						</div>
 					</div>
 					<div class="img-box-3 navImg">
-						<div class="text_over_image">
-							Resources
+						<div class="text_over_image" onclick="showResources();">
+							<p>Resources</p>
 
 						</div>
 					</div>
@@ -91,16 +105,70 @@
 							</ul>
 					</div>
 					<div id="resourcesContent">
-						<p class="contentText">
-							<span class="title-text">Resources</span>
+							<div class="title-text-padded">Resources</div>
 							<br>
 							<br>
-							<a href="http://sfhumanesociety.org/" target="_blank">Santa Fe Animal Shelter</a>
-							<a href="http://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues" target="_blank">ASPCA - Common Dog Behavior Issues</a>
-							Behavior Help Hotline - (505)983-4309 x251
-						</p>
+						<ul class="contentText">
+							<li><a href="http://sfhumanesociety.org/" target="_blank">Santa Fe Animal Shelter</a></li>
+							<li><a href="http://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues" target="_blank">ASPCA - Common Dog Behavior Issues</a></li>
+							<li>Behavior Help Hotline - (505)983-4309 x251</li>
+						</ul>
 					</div>
 					<div id="contactContent">
+						<span class="contentText">
+							<span class="title-text">Contact</span>
+							<br>
+							<br>
+							<form id="contact-form" action="/php/mailer.php" method="post">
+								<div class="form-group">
+									<label for="name">Name <span class="contentText">*</span></label>
+									<div class="input-group">
+										<div class="input-grou-addon">
+											<i class="fa fa-user" aria-hidden="true"></i>
+										</div>
+										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email">Email <span class="contentText">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-envolope" aria-hidden="true"></i>
+										</div>
+										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="subject">Subject</label>
+									<div class="input-group">
+											<div class="input-group-addon">
+												<i class="fa fa-pencil" aria-hidden="true"></i>
+											</div>
+											<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="message">Message <span class="contentText">*</span></label>
+									<div class="input-group">
+										<div class="input-group-addon">
+											<i class="fa fa-comment" aria-hidden="true"></i>
+										</div>
+										<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"
+									</div>
+								</div>
+
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6Ld7KhgUAAAAAJ0pFjInFNn9VrfWHF_VR4gV8ecT"></div>
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</form>
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
+						</div>
+						</span>
 					</div>
 				</div>
 				<div class="content-img-box">
@@ -111,6 +179,10 @@
 					<span id="pricingImages">
 						<div class="img-content-pricing-1"></div>
 						<div class="img-content-pricing-2"></div>
+					</span>
+					<span id="resourcesImages">
+						<div class="img-content-resources-1"></div>
+						<div class="img-content-resources-2"></div>
 					</span>
 				</div>
 			</div>
