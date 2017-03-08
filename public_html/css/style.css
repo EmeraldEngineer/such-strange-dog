@@ -1,10 +1,7 @@
 /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/)*/
 
-/*********************
-boxtest
- ********************/
-
-
+/*flexbox thingy*/
+@import "compass/css3";
 
 .under-box {
 	width: 90vw;
@@ -118,7 +115,6 @@ boxtest
 	margin-left: 5%;
 	margin-right: auto;
 	position: relative;
-	box-shadow: 0 0 50px 3px ;
 	vertical-align:middle;
 
 }
@@ -231,7 +227,6 @@ boxtest
 	padding: 0;
 	position: absolute;
 	left: 30%;
-
 	top: 59%;
 }
 
@@ -342,6 +337,11 @@ boxtest
 	display: none;
 }
 
+
+/***********************************/
+			/* Mobile View */
+/***********************************/
+
 .m-under-box {
 	display: table;
 	width: 94vw;
@@ -420,10 +420,126 @@ boxtest
 
 }
 
+.m-hide {
+	display: none;
+	text-align:center;
+}
+.m-text-box {
+
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	vertical-align:middle;
+	justify-content: center;
+	align-items:center;
+}
+
+.m-back-arrow {
+	width: 10vw;
+	cursor: pointer;
+	color: white;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+	padding-top: 5%;
+	font-size:  10vw;
+}
+
+.m-back-text {
+	display: inline-block;
+}
+
+
+.m-title-text {
+	font-size: 4vw;
+	display: inline-block;
+	position: relative;
+	color:white;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	margin-right: 5vw;
+	margin-left: 5vw;
+}
+
+.m-contentText {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 20%;
+	color:white;
+	font-size: 3vw;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	overflow: auto;
+	margin-bottom: 20%;
+	margin-right: 5vw;
+	margin-left: 5vw;
+}
+
+#m-aboutContent {
+	display: none;
+	margin: auto;
+
+}
+
+#m-aboutImages {
+	display: none;
+}
+
+#m-pricingContent {
+	display: none;
+}
+
+#m-resourcesContent {
+	display: none;
+}
+
+#m-contactContent {
+	display: none;
+
+}
+
+#m-aboutImages {
+	display: none;
+}
+
+#m-pricingImages {
+	display: none;
+}
+
+#m-resourcesImages {
+	display: none;
+}
+
+#m-contactImages {
+	display: none;
+}
+
+.m-img-content-about-1 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/SSDTlogocrop.jpg");
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.m-contentText-alt {
+	display: inline-block;
+	color:white;
+	font-size: 3vw;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	margin-right: 5vw;
+	margin-left: 5vw;
+}
+
+
+
 /************************?
 
-/*flexbox thingy*/
-@import "compass/css3";
+
 
 .main-container {file:///home/blue/Desktop/bootcamp/git/such-strange-dog/public_html/documentation/images/wireframe.png
 	/*background-color: dimgray;*/

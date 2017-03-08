@@ -7,23 +7,6 @@ function showAbout(){
 	$("#aboutImages").show();
 }
 
-function hideContent() {
-	$(".text-box").hide();
-	$("#aboutContent").hide();
-	$("#pricingContent").hide();
-	$("#resourcesContent").hide();
-	$("#contactContent").hide();
-	$(".content-img-box").hide();
-	$("#aboutImages").hide();
-	$("#pricingImages").hide();
-	$("#resourcesImages").hide();
-	$("#contactImages").hide();
-	$(".outer-box").show();
-	$(".m-outer-box").show();
-
-
-}
-
 function showPricing() {
 	$(".outer-box").hide();
 	$(".m-outer-box").hide();
@@ -52,8 +35,71 @@ function showContact() {
 	$("#contactImages").show();
 }
 
-
-
-function clicktest() {
-	alert("that worked");
+function hideContent() {
+	$(".text-box").hide();
+	$("#aboutContent").hide();
+	$("#pricingContent").hide();
+	$("#resourcesContent").hide();
+	$("#contactContent").hide();
+	$(".content-img-box").hide();
+	$("#aboutImages").hide();
+	$("#pricingImages").hide();
+	$("#resourcesImages").hide();
+	$("#contactImages").hide();
+	$(".outer-box").show();
+	$(".m-outer-box").show();
+	$(".m-hide").hide();
+	$("#m-aboutContent").hide();
+	$(".m-content-img-box").hide();
+	$("#m-aboutImages").hide();
+	$("#m-pricingContent").hide();
+	$("#m-pricingImages").hide();
+	$("#m-resourcesContent").hide();
+	$("#m-resourcesImages").hide();
+	$("#m-contactContent").hide();
+	$("#m-contactImages").hide();
 }
+
+
+
+
+function mShowAbout(){
+	$(".outer-box").hide();
+	$(".m-outer-box").hide();
+	$(".m-hide").show();
+	$("#m-aboutContent").show();
+	$(".m-content-img-box").show();
+	$("#m-aboutImages").show();
+}
+
+function mShowPricing(){
+	$(".outer-box").hide();
+	$(".m-outer-box").hide();
+	$(".m-hide").show();
+	$("#m-pricingContent").show();
+	$(".m-content-img-box").show();
+	$("#m-pricingImages").show();
+}
+
+function mShowResources(){
+	$(".outer-box").hide();
+	$(".m-outer-box").hide();
+	$(".m-hide").show();
+	$("#m-resourcesContent").show();
+	$(".m-content-img-box").show();
+	$("#m-resourcesImages").show();
+}
+
+
+function mShowContact(){
+	$(".outer-box").hide();
+	$(".m-outer-box").hide();
+	$(".m-hide").show();
+	$("#m-contactContent").show();
+	$(".m-content-img-box").show();
+	$("#m-contactImages").show();
+}
+
+
+
+

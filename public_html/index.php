@@ -201,45 +201,124 @@
 					<!-- nav images -->
 					<div class="m-img-box-1 navImg">
 
-						<div class="text_over_image">
-							<a class= "links" href="#!" onclick="showAbout()">About</a>
+						<div class="text_over_image" onclick="mShowAbout()">
+							<p>About</p>
 						</div>
 
 					</div>
 					<div class="m-img-box-2 navImg">
 
-						<div class="text_over_image">
-							Pricing
+						<div class="text_over_image" onclick="mShowPricing()">
+							<p>Pricing</p>
 
 						</div>
 
 					</div>
 					<div class="m-img-box-3 navImg">
 
-						<div class="text_over_image">
-							Resources
+						<div class="text_over_image" onclick="mShowResources();">
+							<p>Resources</p>
 
 						</div>
 
 					</div>
 					<div class="m-img-box-4 navImg">
 
-						<div class="text_over_image">
-							Contact
+						<div class="text_over_image" onclick="mShowContact();">
+							<p>Contact</p>
 
 						</div>
 
 					</div>
-					<!-- end nav images -->
-					<div id="aboutContent">
+				</div>
+				<!-- end nav images -->
+				<div class="m-hide">
+				<div class="m-text-box">
+					<div class="m-back-text">
+						<p class="m-back-arrow" onclick="hideContent();">&#x25c1;</p>
 					</div>
-					<div id="pricingContent">
+					<div id="m-aboutContent">
+						<p class="m-contentText">
+							<span class="m-title-text">About</span>
+							<br>
+							<br>
+							Such Strange Dog Training was founded on the principal that all dogs deserve the best life possible. We strive to provide training to dogs that need help. We cater to dogs who are shy, fearful, aggressive, reactive, and hyper energetic. Lead Trainer Chloe Davis-Masters is dedicated to science and relationship based training methods, focused on how dogs learn, and team building. Positive reinforcement, and resistance free training are paramount to Such Strange Dog's methods.
+						</p>
 					</div>
-					<div id="resourcesContent">
+					<div id="m-pricingContent">
+						<div class="title-text-padded">Pricing</div>
+						<br>
+						<br>
+						<ul class="m-contentText">
+							<li>Consultation - $50</li>
+							<li>30 Minutes - $40</li>
+							<li>45 Minutes - $50</li>
+							<li>60 Minutes - $55</li>
+							<li>90 Minutes - $70</li>
+							<li>90 Minute Aggression Training Plan Consultation - $75</li>
+						</ul>
 					</div>
-					<div id="contactContent">
+					<div id="m-resourcesContent">
+						<div class="title-text-padded">Resources</div>
+						<br>
+						<br>
+						<ul class="contentText">
+							<li><a href="http://sfhumanesociety.org/" target="_blank">Santa Fe Animal Shelter</a></li>
+							<li><a href="http://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues" target="_blank">ASPCA - Common Dog Behavior Issues</a></li>
+							<li>Behavior Help Hotline - (505)983-4309 x251</li>
+						</ul>
+					</div>
+					<div id="m-contactContent">
+						<div class="m-contentText-alt"><form id="contact-form" method="POST" action="php/mailer.php" novalidate>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user"></i>
+									</div>
+									<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-envelope"></i>
+									</div>
+									<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil"></i>
+									</div>
+									<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment"></i>
+									</div>
+									<textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+								</div>
+							</div>
+
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6Ld7KhgUAAAAAJ0pFjInFNn9VrfWHF_VR4gV8ecT"></div>
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+						</form></div>
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
 					</div>
 				</div>
+			</div>
 			</div>
 
 		</div>
