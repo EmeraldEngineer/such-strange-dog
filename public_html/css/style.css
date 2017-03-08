@@ -21,6 +21,8 @@ boxtest
 	box-shadow: 0 0 50px 3px ;
 }
 
+
+
 .outer-box {
 	width: 95%;
 	height: 50%;
@@ -135,7 +137,7 @@ boxtest
 	display: none;
 }
 
-#resourcesContentContent {
+#resourcesContent {
 	display: none;
 }
 
@@ -199,6 +201,14 @@ boxtest
 	overflow: auto;
 	margin-bottom: 20%;
 }
+
+.contentText-alt {
+	display: inline-block;
+	color:white;
+	font-size: 1.5vw;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
 
 .content-img-box {
 	display: none;
@@ -290,6 +300,35 @@ boxtest
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url("../images/truck-puppy.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+	top: 22%;
+}
+
+.img-content-contact-1 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/flower2crop.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+
+	top: 59%;
+}
+
+.img-content-contact-2 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/flowerscrop.jpg");
 	margin: 0;
 	padding: 0;
 	position: absolute;

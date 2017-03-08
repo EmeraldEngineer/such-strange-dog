@@ -43,6 +43,16 @@ function showResources() {
 }
 
 
+function showContact() {
+	$(".outer-box").hide();
+	$(".m-outer-box").hide();
+	$(".text-box").show();
+	$("#contactContent").show();
+	$(".content-img-box").show();
+	$("#contactImages").show();
+}
+
+
 
 function clicktest() {
 	alert("that worked");

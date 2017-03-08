@@ -72,7 +72,7 @@
 						</div>
 					</div>
 					<div class="img-box-4 navImg">
-						<div class="text_over_image">
+						<div class="text_over_image" onclick="showContact();">
 							Contact
 
 						</div>
@@ -93,21 +93,21 @@
 					</div>
 					<div id="pricingContent">
 						<div class="title-text-padded">Pricing</div>
-							<br>
-							<br>
-							<ul class="contentText">
+						<br>
+						<br>
+						<ul class="contentText">
 							<li>Consultation - $50</li>
 							<li>30 Minutes - $40</li>
 							<li>45 Minutes - $50</li>
 							<li>60 Minutes - $55</li>
 							<li>90 Minutes - $70</li>
 							<li>90 Minute Aggression Training Plan Consultation - $75</li>
-							</ul>
+						</ul>
 					</div>
 					<div id="resourcesContent">
-							<div class="title-text-padded">Resources</div>
-							<br>
-							<br>
+						<div class="title-text-padded">Resources</div>
+						<br>
+						<br>
 						<ul class="contentText">
 							<li><a href="http://sfhumanesociety.org/" target="_blank">Santa Fe Animal Shelter</a></li>
 							<li><a href="http://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues" target="_blank">ASPCA - Common Dog Behavior Issues</a></li>
@@ -115,60 +115,62 @@
 						</ul>
 					</div>
 					<div id="contactContent">
-						<span class="contentText">
+						<div class="contentText-alt">
 							<span class="title-text">Contact</span>
 							<br>
 							<br>
-							<form id="contact-form" action="/php/mailer.php" method="post">
-								<div class="form-group">
-									<label for="name">Name <span class="contentText">*</span></label>
-									<div class="input-group">
-										<div class="input-grou-addon">
-											<i class="fa fa-user" aria-hidden="true"></i>
-										</div>
-										<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="email">Email <span class="contentText">*</span></label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-envolope" aria-hidden="true"></i>
-										</div>
-										<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="subject">Subject</label>
-									<div class="input-group">
-											<div class="input-group-addon">
-												<i class="fa fa-pencil" aria-hidden="true"></i>
-											</div>
-											<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="message">Message <span class="contentText">*</span></label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-comment" aria-hidden="true"></i>
-										</div>
-										<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"
-									</div>
-								</div>
 
-							<!-- reCAPTCHA -->
+
+							<form id="contact-form" method="POST" action="php/mailer.php" novalidate>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user"></i>
+									</div>
+									<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-envelope"></i>
+									</div>
+									<input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil"></i>
+									</div>
+									<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment"></i>
+									</div>
+									<textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 characters max)"></textarea>
+								</div>
+</div>
+
+								<!-- reCAPTCHA -->
 							<div class="g-recaptcha" data-sitekey="6Ld7KhgUAAAAAJ0pFjInFNn9VrfWHF_VR4gV8ecT"></div>
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
-						<!--empty area for form error/success output-->
+							<!--empty area for form error/success output-->
 						<div class="row">
 							<div class="col-xs-12">
 								<div id="output-area"></div>
 							</div>
 						</div>
-						</span>
+						</div>
 					</div>
 				</div>
 				<div class="content-img-box">
@@ -184,9 +186,16 @@
 						<div class="img-content-resources-1"></div>
 						<div class="img-content-resources-2"></div>
 					</span>
+					<span id="contactImages">
+						<div class="img-content-contact-1"></div>
+						<div class="img-content-contact-2"></div>
+					</span>
 				</div>
+
 			</div>
 
+
+			<!-- Mobile -->
 			<div class="m-under-box visible-xs">
 				<div class="m-outer-box">
 					<!-- nav images -->
