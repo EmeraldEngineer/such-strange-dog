@@ -91,6 +91,14 @@
 							</ul>
 					</div>
 					<div id="resourcesContent">
+						<p class="contentText">
+							<span class="title-text">Resources</span>
+							<br>
+							<br>
+							<a href="http://sfhumanesociety.org/" target="_blank">Santa Fe Animal Shelter</a>
+							<a href="http://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues" target="_blank">ASPCA - Common Dog Behavior Issues</a>
+							Behavior Help Hotline - (505)983-4309 x251
+						</p>
 					</div>
 					<div id="contactContent">
 					</div>
