@@ -246,7 +246,7 @@
 						</p>
 					</div>
 					<div id="m-pricingContent">
-						<div class="title-text-padded">Pricing</div>
+						<div class="m-title-text-padded">Pricing</div>
 						<br>
 						<br>
 						<ul class="m-contentText">
@@ -259,10 +259,10 @@
 						</ul>
 					</div>
 					<div id="m-resourcesContent">
-						<div class="title-text-padded">Resources</div>
+						<div class="m-title-text-padded">Resources</div>
 						<br>
 						<br>
-						<ul class="contentText">
+						<ul class="m-contentText">
 							<li><a href="http://sfhumanesociety.org/" target="_blank">Santa Fe Animal Shelter</a></li>
 							<li><a href="http://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues" target="_blank">ASPCA - Common Dog Behavior Issues</a></li>
 							<li>Behavior Help Hotline - (505)983-4309 x251</li>

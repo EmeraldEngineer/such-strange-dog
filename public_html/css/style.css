@@ -450,13 +450,22 @@
 
 
 .m-title-text {
-	font-size: 4vw;
+	font-size: 6vw;
 	display: inline-block;
 	position: relative;
 	color:white;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 	margin-right: 5vw;
 	margin-left: 5vw;
+}
+
+.m-title-text-padded {
+	font-size: 6vw;
+	display: inline-block;
+	position: relative;
+	color:white;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	margin-top: 5%;
 }
 
 .m-contentText {
@@ -467,7 +476,7 @@
 	padding-top: 5%;
 	padding-bottom: 20%;
 	color:white;
-	font-size: 3vw;
+	font-size: 4vw;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
 	overflow: auto;
 	margin-bottom: 20%;
@@ -535,222 +544,16 @@
 	margin-left: 5vw;
 }
 
-/************************?
 
 
-
-.main-container {file:///home/blue/Desktop/bootcamp/git/such-strange-dog/public_html/documentation/images/wireframe.png
-	/*background-color: dimgray;*/
-	background-color: deeppink;
-	min-width: 95%;
-	/*margin-bottom: 5rem;
-	margin-left: 5rem;
-	margin-right: 5rem;
-	margin-top: 0;*/
-	position: fixed;
-	padding: 2em;
-	left: 50%;
-	transform: translate(-50%);
-	padding-top: 0;
-
-}
-
-.flex-parent {
-
-	justify-content: center;
-	flex-flow: row wrap;
-}
-
-
-
-.img-row {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-
-.img-container {
-	width: 44vw;   height: 25vw;
-	flex: 1 0 260px;
-	position: relative;
-	overflow: hidden;
-
-}
 
 .nav-image {
 	width: 44vw;
 	height: 25vw;
-	/*position: absolute;
-	top: -60px;
-	left: -60px;*/
 	z-index: -100;
 }
 
 
-
-.flex-img {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row; /* Safari */
-	flex-direction:         row;
-	width: 80rem;
-	height: 80rem;
-	margin-top: 0;
-	background-image: url("http://fillmurray.com/g/1280/960");
-	background-size: contain;
-	background-repeat: no-repeat;
-
-
-}
-
-/*
-.img-flex {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row; * Safari *
-	flex-direction:         row;
-
-	-webkit-justify-content: center; * Safari *
-	justify-content:         center;
-	*flex-basis: 80rem;*
-	min-height: 39rem;
-}
-*/
-
-/***************************/
-
-/* - table-index css - Talcotted
-.img-box-l {
-	float:left;
-	position: relative;
-	width: 46%;
-	padding-bottom : 34.5%;
-	margin-bottom:1.66%;
-	margin-right:0;
-	margin-left:4%;
-	background-color:#1E1E1E;
-	overflow:hidden;
-}
-
-.img-box-r {
-	float:right;
-	position: relative;
-	width: 46%;
-	padding-bottom : 34.5%;
-	margin-bottom:1.66%;
-	margin-left:0;
-	margin-right:4%;
-	background-color:#1E1E1E;
-	overflow:hidden;
-}
-
-.bg-image {
-	background-image: url("http://fillmurray.com/g/1280/960");
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-
-
-.nav-text {
-	position:absolute;
-	height:100%;
-	width:100%;
-	text-align:center;
-	color: white;
-	transform-style: preserve-3d;  *apparently prevents half-pixel fuckery*
-}
-
-.table{
-	display:table;
-	height:100%;
-	width:100%;
-}
-
-.table-cell{
-	display:table-cell;
-	vertical-align:middle;
-	height:100%;
-	width:100%;
-}
-
-*/
-
-/****************************************/
-
-
-/*
-	Index Page Styles
- */
-
-
-
-#backgroundBox {
-	/*background-color: dimgray;*/
-	background-color: deeppink;
-	margin-bottom: 5rem;
-	margin-left: 5rem;
-	margin-right: 5rem;
-
-
-}
-
-.bg-image {
-
-	background-image: url("http://fillmurray.com/g/1280/720");
-	background-repeat: no-repeat;
-	background-size: contain;
-	margin-bottom: 0;
-	padding-bottom: 0;
-
-
-
-	/*width: 46%;
-	padding-bottom : 34.5%;*/
-}
-
-
-
-/*
-	Content Pages Styles
- */
-
-/* colors main text on pages */
-
-
-.contentImage {
-	padding: 2px;
-}
-
-#backgroundBoxBorder {
-	background-color: gray;
-	border: 1px solid white;
-	border-radius: 10px 40px;
-}
-
-
-
-/* possibly unneeded */
-h2 {
-	color: white;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-}
-
-.background-image {
-	width: 25%;
-	height: 25vw;
-	flex: 1 0 260px;
-
-	position: relative;
-	overflow: hidden;
-}
-
-/*
-	Global Styles
- */
 
 /* add sticky footer globally */
 
