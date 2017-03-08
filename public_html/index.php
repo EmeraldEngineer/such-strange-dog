@@ -28,7 +28,9 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
 		<!-- ^ Adds timestamp to css link in order to prevent caching, remove from production ^ -->
 
-		<link rel="script" type="text/javascript" href="js/script.js"/>
+		<script src="js/script.js"></script>
+
+		<!-- Explanation of the coding technique used on this website: http://giphy.com/gifs/teen-gossip-oceanup-k3niZvZOckJnq -->
 
 		<title>Such Strange Dog Training</title>
 	</head>
@@ -38,7 +40,7 @@
 				<div class="outer-box">
 					<!-- nav images -->
 					<div class="img-box-1 navImg">
-						<div class="text_over_image" onclick="showAbout()">
+						<div class="text_over_image" onclick="showAbout();">
 							About
 
 						</div>
@@ -62,7 +64,14 @@
 						</div>
 					</div>
 					<!-- end nav images -->
+				</div>
+				<div class="text-box">
+					<div class="back-text">
+						<p class="back-arrow" onclick="hideAbout();">&#x25c1;</p>
+					</div>
 					<div id="aboutContent">
+						<p class="contentText"> <span class="title-text">About</span><br><br>Such Strange Dog Training was founded on the principal that all dogs deserve the best life possible. We strive to provide training to dogs that need help. We cater to dogs who are shy, fearful, aggressive, reactive, and hyper energetic. Lead Trainer Chloe Davis-Masters is dedicated to science and relationship based training methods, focused on how dogs learn, and team building. Positive reinforcement, and resistance free training are paramount to Such Strange Dog's methods.
+						</p>
 					</div>
 					<div id="pricingContent">
 					</div>
@@ -71,6 +80,10 @@
 					<div id="contactContent">
 					</div>
 				</div>
+				<div class="content-img-box">
+					<div class="img-content-about-2"></div>
+					<div class="img-content-about-1"></div>
+				</div>
 			</div>
 
 			<div class="m-under-box visible-xs">
@@ -78,8 +91,8 @@
 					<!-- nav images -->
 					<div class="m-img-box-1 navImg">
 
-						<div class="text_over_image" onclick="showAbout()">
-							About
+						<div class="text_over_image">
+							<a class= "links" href="#!" onclick="showAbout()">About</a>
 						</div>
 
 					</div>

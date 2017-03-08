@@ -104,14 +104,97 @@ boxtest
 	line-height: 12.5rem;
 	/*background-color: rgba(0,0,0,0.5);*/
 	border-radius: 90%;
-	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+	cursor: pointer;
 
 }
+
+.text-box {
+	display: none;
+	width: 50%;
+	height: 90%;
+	margin-left: 5%;
+	margin-right: auto;
+	position: relative;
+	box-shadow: 0 0 50px 3px ;
+	vertical-align:middle;
+
+}
+
 
 #aboutContent {
-	visibility: hidden;
-	color: black;
+	display: none;
+
 }
+
+.title-text {
+	font-size: 3vw;
+}
+
+
+
+.back-arrow {
+	width: 3vw;
+	cursor: pointer;
+	color: white;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+	padding-top: 5%;
+	font-size:  3vw;
+}
+
+.contentText {
+	display: inline-block;
+	position: relative;
+	vertical-align: bottom;
+	text-align: left;
+	padding-top: 5%;
+	padding-bottom: 20%;
+	color:white;
+	font-size: 2vw;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	overflow: auto;
+	margin-bottom: 20%;
+}
+
+.content-img-box {
+	position: relative;
+	float: right;
+	width: 50%;
+	height: 50%;
+	padding-bottom: 53%;
+	margin-right: 5%;
+
+}
+.img-content-about-1 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/SSDTlogocrop.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+
+	top: 59%;
+}
+
+.img-content-about-2 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/young.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+	top: 22%;
+}
+
+
 
 .hidden {
 	display: none;
@@ -222,11 +305,7 @@ boxtest
 	flex-flow: row wrap;
 }
 
-.container {
-	max-width: 1280px;
-	min-width: 640px;
-	margin: 0 auto;
-}
+
 
 .img-row {
 	display: -webkit-flex;
@@ -381,10 +460,7 @@ boxtest
  */
 
 /* colors main text on pages */
-.contentText {
-	padding: 5px;
-	color: white;
-}
+
 
 .contentImage {
 	padding: 2px;
