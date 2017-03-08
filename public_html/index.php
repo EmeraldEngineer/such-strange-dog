@@ -41,13 +41,13 @@
 					<!-- nav images -->
 					<div class="img-box-1 navImg">
 						<div class="text_over_image" onclick="showAbout();">
-							About
+							<p>About</p>
 
 						</div>
 					</div>
 					<div class="img-box-2 navImg">
-						<div class="text_over_image">
-							Pricing
+						<div class="text_over_image" onclick="showPricing();">
+							<p>Pricing</p>
 
 						</div>
 					</div>
@@ -67,13 +67,28 @@
 				</div>
 				<div class="text-box">
 					<div class="back-text">
-						<p class="back-arrow" onclick="hideAbout();">&#x25c1;</p>
+						<p class="back-arrow" onclick="hideContent();">&#x25c1;</p>
 					</div>
 					<div id="aboutContent">
-						<p class="contentText"> <span class="title-text">About</span><br><br>Such Strange Dog Training was founded on the principal that all dogs deserve the best life possible. We strive to provide training to dogs that need help. We cater to dogs who are shy, fearful, aggressive, reactive, and hyper energetic. Lead Trainer Chloe Davis-Masters is dedicated to science and relationship based training methods, focused on how dogs learn, and team building. Positive reinforcement, and resistance free training are paramount to Such Strange Dog's methods.
+						<p class="contentText">
+							<span class="title-text">About</span>
+							<br>
+							<br>
+							Such Strange Dog Training was founded on the principal that all dogs deserve the best life possible. We strive to provide training to dogs that need help. We cater to dogs who are shy, fearful, aggressive, reactive, and hyper energetic. Lead Trainer Chloe Davis-Masters is dedicated to science and relationship based training methods, focused on how dogs learn, and team building. Positive reinforcement, and resistance free training are paramount to Such Strange Dog's methods.
 						</p>
 					</div>
 					<div id="pricingContent">
+						<div class="title-text-padded">Pricing</div>
+							<br>
+							<br>
+							<ul class="contentText">
+							<li>Consultation - $50</li>
+							<li>30 Minutes - $40</li>
+							<li>45 Minutes - $50</li>
+							<li>60 Minutes - $55</li>
+							<li>90 Minutes - $70</li>
+							<li>90 Minute Aggression Training Plan Consultation - $75</li>
+							</ul>
 					</div>
 					<div id="resourcesContent">
 					</div>
@@ -81,8 +96,14 @@
 					</div>
 				</div>
 				<div class="content-img-box">
+					<span id="aboutImages">
 					<div class="img-content-about-2"></div>
 					<div class="img-content-about-1"></div>
+					</span>
+					<span id="pricingImages">
+						<div class="img-content-pricing-1"></div>
+						<div class="img-content-pricing-2"></div>
+					</span>
 				</div>
 			</div>
 

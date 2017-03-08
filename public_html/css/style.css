@@ -127,10 +127,54 @@ boxtest
 
 }
 
-.title-text {
-	font-size: 3vw;
+#aboutImages {
+	display: none;
 }
 
+#pricingContent {
+	display: none;
+}
+
+#resourcesContentContent {
+	display: none;
+}
+
+#contactContent {
+	display: none;
+}
+
+#aboutImages {
+	display: none;
+}
+
+#pricingImages {
+	display: none;
+}
+
+#resourcesImages {
+	display: none;
+}
+
+#contactImages {
+	display: none;
+}
+
+.title-text {
+	font-size: 3vw;
+	display: inline-block;
+	position: relative;
+	color:white;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.title-text-padded {
+	font-size: 3vw;
+	display: inline-block;
+	position: relative;
+	color:white;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+	margin-top: 5%;
+}
 
 
 .back-arrow {
@@ -157,6 +201,7 @@ boxtest
 }
 
 .content-img-box {
+	display: none;
 	position: relative;
 	float: right;
 	width: 50%;
@@ -187,6 +232,35 @@ boxtest
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-image: url("../images/young.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+	top: 22%;
+}
+
+.img-content-pricing-1 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/pink-puppy.jpg");
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 30%;
+
+	top: 59%;
+}
+
+.img-content-pricing-2 {
+	display: inline-block;
+	width: 70%;
+	height: 39%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../images/play-puppies.jpg");
 	margin: 0;
 	padding: 0;
 	position: absolute;
