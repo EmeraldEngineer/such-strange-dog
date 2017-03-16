@@ -28,3 +28,17 @@ I think this is going to be a beautiful layout, and I'm looking forward to seein
 
 ## Milestone 2&beta; Feedback
 Good work so far - stay focused and you should be finished in a handful of focused work hours. Detailed meeting feedback sent via Slack. Your Milestone passes at Tier III.
+
+### Final PWP Feedback
+
+Beautiful work on your PWP - and nice job on the custom jQuery. Your layout looks great on desktop and mobile - nice work on using the Bootstrap grid system to your advantage.
+
+I see that your contact form works, but it's not being submitted via jQuery ajax through form-validate.js. This means you have no front-end validation in place. See Suggestions below for more info. 
+
+Just my opinion, but I think the home page could use the name of the business somewhere prominent. Just an idea.
+
+Really great work here - I hope your client loves it. Your Final PWP passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Nice job!
+
+### Suggestions
+- Your contact form does not submit via jQuery validate, but instead submits directly to the php mailer. This means you have no front-end validation for your form. Check and see if your form-validate.js file is uploaded and linked properly.
+- You have jQuery loaded twice in your HTML &lt;head&gt; - I'd just stick with v3.0.0
