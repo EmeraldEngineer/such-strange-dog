@@ -38,9 +38,9 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<!-- v Adds timestamp to css link in order to prevent caching, remove from production v -->
-		<link rel="stylesheet" type="text/css" href="css/style.css"?<?php echo date('l jS \of F Y h:i:s A'); ?>>
-		<!-- ^ Adds timestamp to css link in order to prevent caching, remove from production ^ -->
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
 
 		<script src="js/script.js"></script>
 
@@ -187,8 +187,8 @@
 						<div class="img-content-resources-2"></div>
 					</span>
 					<span id="contactImages">
-						<div class="img-content-contact-1"></div>
 						<div class="img-content-contact-2"></div>
+						<div class="img-content-contact-1"></div>
 					</span>
 				</div>
 
